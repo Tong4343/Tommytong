@@ -23,4 +23,8 @@ class CalculatorTest {
     void testDivide(){
         assertEquals(2,calculator.divide(6,  3),"6/3 should equal 2");
     }
+    @Test
+    void testMax() {
+        assertEquals(3, calculator.max(2, 3), "The max of 2 and 3 should be 3");
+    }
 }
