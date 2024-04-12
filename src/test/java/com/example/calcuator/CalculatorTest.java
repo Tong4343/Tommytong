@@ -19,4 +19,8 @@ class CalculatorTest {
     void testMultiply() {
         assertEquals(6, calculator.multiply(2, 3), "2 * 3 should equal 6");
     }
+    @Test
+    void testDivide(){
+        assertEquals(2,calculator.divide(6,  3),"6/3 should equal 2");
+    }
 }
